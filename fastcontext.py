@@ -185,7 +185,8 @@ if __name__ == "__main__":
     
     # Updated query reflecting the actual models present in your notebooks
     test_query = (
-        "Search the python files to find exactly where the EfficientNet model is initialized, "
+        "Use glob to search the 'testbed' directory for python files. "
+        "Find exactly where the EfficientNet model is initialized, "
         "where the DeBERTa model is loaded with LoRA, and how the .wav files are processed."
     )
     
